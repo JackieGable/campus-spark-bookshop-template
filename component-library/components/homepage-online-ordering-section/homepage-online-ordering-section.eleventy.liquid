@@ -274,18 +274,16 @@
                 <source media="(max-width: 600px)" srcset="{{ mainImgLg }}">
                 <!--Tablet and above Image-->
                 <source media="(min-width: 601px)" srcset="{{ mainImgSm }}">
-                <img loading="lazy" decoding="async" src="{{ mainImgSm }}" alt="body builder" width="700" height="auto">
+                <img loading="lazy" decoding="async" src="{{ mainImgSm }}" alt="{{ mainImgAlt }}" width="700" height="auto">
             </picture>
 
    
         </div>
         <div class="cs-content">
-            <span class="cs-topper">Services</span>
-            <h2 class="cs-title">Our Service Is the Difference</h2>
+            <span class="cs-topper">{{ category }}</span>
+            <h2 class="cs-title">{{ mainHeading }}</h2>
             <p class="cs-text">
-                Throughout the years, one constant that remains is our customer service has, and always will be, our #1 priority. We strive to provide a level of unmatched service through all phases of any project and take pride in building long-lasting relationships with every customer.
-
-                By implementing a Customer Service Division, we are able to ensure that customer satisfaction continues to be a priority while catering to all project needs, processing online orders, and executing service solutions.
+               {{ mainContent }}
             </p>
        
 

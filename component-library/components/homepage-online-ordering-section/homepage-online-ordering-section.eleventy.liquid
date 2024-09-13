@@ -271,8 +271,11 @@
             <!--Main Image-->
             <picture class="cs-picture">
                 <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="{{ mainImgLg }}">
                 <source media="(max-width: 600px)" srcset="{{ mainImgSm}}">
                 <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="{{ mainImgSm }}">
+                <img loading="lazy" decoding="async" src="{{ mainImgSm }}" alt="{{ mainImgAlt }}" width="700" height="auto">
                 <source media="(min-width: 601px)" srcset="{{ mainImgLg}}">
                 <img loading="lazy" decoding="async" src="{{ mainImgSm}}" alt="{{ mainImgAlt }}" width="700" height="auto">
             </picture>
@@ -283,18 +286,21 @@
             <span class="cs-topper">{{ category }}</span>
             <h2 class="cs-title">{{ mainHeading }}</h2>
             <p class="cs-text">
-       {{ mainContent }}
+               {{ mainContent }}
+            </p>
+            <p class="cs-text">
+               {{ mainContent2 }}
             </p>
        
 
             <div class="center">
           <h2 class="center pb-2">Online Ordering</h2>
-          <p class="py-2 left">
-            If you are an <a href="https://res.cloudinary.com/aggtrans/image/upload/PDFs/COD-Non-Credit-Account-Form.pdf">Account Customer</a> looking to make a bulk order request, we encourage you to use our <a href="{{ https://aggtrans.com/online-order-form }}">Online Ordering Form</a>.
+          <p class="py-2 left"> 
+            If you are an <a href="{{ link_to_COD_nonCreditAccountForm }}">Account Customer</a> looking to make a bulk order request, we encourage you to use our <a href="{{ link_to_OnlineOrderForm }}">Online Ordering Form</a>.
 
 This application is processed by our Customer Service Team and designed to save you time, streamline communication, and improve order efficiency.
           </p>
-   <a href="/" class="cs-button-solid">Order Online Now</a>
+   <a href="{{ link_to_OnlineOrderForm }}" class="cs-button-solid">Order Online Now</a>
             </div>
         </div>
      </div>

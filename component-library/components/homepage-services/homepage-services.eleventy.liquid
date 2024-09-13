@@ -187,13 +187,13 @@
     <div class="cs-container" >
         <div class="cs-content">
             <div class="cs-flex-group">
-                <span class="cs-topper">Our Services</span>
-                <h2 class="cs-title">Transportation and Delivery Services</h2>
+                <span class="cs-topper">{{ category }}</span>
+                <h2 class="cs-title">{{ mainHeading }}</h2>
            
             </div>
             <p class="cs-text mb-1">
-                Pride, professionalism, and safety are just a few words to describe the detail that goes into every delivery. All deliveries are orchestrated by our dedicated dispatch team for both residential and commercial customers. Aggtrans is equipped with a fleet of vehicles, allowing us the ability to handle loads of all sizes. <br>
-                For more information, visit our <a href="/services">Services</a> page.
+               {{ mainContent }} <br>
+                     For more information, visit our <a href="/services">Services</a> page.
                                
             </p>
 
@@ -201,42 +201,42 @@
         </div>
         <ul class="cs-card-group">
             <li class="cs-item">
-                <a href="/wholesale-retail.html" class="cs-link" title="Aggtrans has been delivering bulk materials to the Baltimore, D.C. area for over 40 years.">
-                    <h3 class="cs-h3">Aggregate Delivery</h3>
+                <a href="{{cardUrl_1 }}" class="cs-link" title="{{ cardTitle_1 }}">
+                    <h3 class="cs-h3">{{ cardHeading_1 }}</h3>
                     <p class="cs-item-text">
-                        All deliveries are orchestrated by our dedicated dispatch team for both residential and commercial customers.
+                        {{ cardContent_1 }}
                     </p>
                 </a>
                 <picture class="cs-item-background">
-                    <source media="(max-width: 600px)" srcset="https://res.cloudinary.com/aggtrans/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_413/equipment/loading-aggtrans-dump-truck-in-yard_cropped.jpg">
-                    <source media="(min-width: 601px)" srcset="https://res.cloudinary.com/aggtrans/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_413/equipment/loading-aggtrans-dump-truck-in-yard_cropped.jpg">
-                    <img decoding="async" src="https://res.cloudinary.com/aggtrans/image/upload/c_scale,dpr_auto,f_auto,q_auto,w_413/equipment/loading-aggtrans-dump-truck-in-yard_cropped.jpg" alt="construction" width="413" height="374" aria-hidden="true">
+                    <source media="(max-width: 600px)" srcset="{{ cardImgSm_1 }}">
+                    <source media="(min-width: 601px)" srcset="{{ cardImgLg_1 }}">
+                    <img decoding="async" src="cardImgSm_1" alt="{{ cardImgAlt_1 }}" width="413" height="374" aria-hidden="true">
                 </picture>
             </li>
             <li class="cs-item">
-                <a href="/transportation.html" class="cs-link" title="Aggtrans delivers anywhere">
-                    <h3 class="cs-h3">Flatbed Deliveries</h3>
+                <a href="{{cardUrl_2 }}" class="cs-link" title="{{ cardTitle_2 }}">
+                    <h3 class="cs-h3">{{ cardHeading_2 }}</h3>
                     <p class="cs-item-text">
-                        Our delivery personnel consists of highly-trained, service-minded professionals who go above and beyond to ensure our customers are treated with respect and all purchases are delivered with care.
+                        {{ cardContent_2 }}
                     </p>
                 </a>
                 <picture class="cs-item-background">
-                    <source media="(max-width: 600px)" srcset="https://res.cloudinary.com/aggtrans/image/upload/c_lfill,dpr_auto,f_auto,g_center,h_413,q_auto,w_413/v1618591860/equipment/stonestore_flatbed_with_forklift_and_materials_ready_to_be-delivered.png">
-                    <source media="(min-width: 601px)" srcset="https://res.cloudinary.com/aggtrans/image/upload/c_lfill,dpr_auto,f_auto,g_center,h_413,q_auto,w_413/v1618591860/equipment/stonestore_flatbed_with_forklift_and_materials_ready_to_be-delivered.png">
-                    <img decoding="async" src="https://res.cloudinary.com/aggtrans/image/upload/c_lfill,dpr_auto,f_auto,g_center,h_413,q_auto,w_413/v1618591860/equipment/stonestore_flatbed_with_forklift_and_materials_ready_to_be-delivered.png" alt="construction" width="413" height="374" aria-hidden="true">
+                    <source media="(max-width: 600px)" srcset="{{ cardImgSm_2 }}">
+                    <source media="(min-width: 601px)" srcset="{{ cardImgLg_2 }}">
+                    <img decoding="async" src="cardImgSm_2" alt="{{ cardImgAlt_2 }}" width="413" height="374" aria-hidden="true">
                 </picture>
             </li>
             <li class="cs-item">
-                <a href="/transportation.html" class="cs-link" title="Aggtrans rents dump trucks and flatbeds.">
-                    <h3 class="cs-h3">Dump Truck Rental</h3>
+                <a href="{{cardUrl_3 }}" class="cs-link" title="{{ cardTitle_3 }}">
+                    <h3 class="cs-h3">{{ cardHeading_3 }}</h3>
                     <p class="cs-item-text">
-                        Aggtrans is equipped with a fleet of vehicles, allowing us the ability to handle loads of all sizes.
+                        {{ cardContent_3 }}
                     </p>
                 </a>
                 <picture class="cs-item-background">
-                    <source media="(max-width: 600px)" srcset="https://res.cloudinary.com/aggtrans/image/upload/c_lfill,dpr_auto,f_auto,g_center,h_374,q_auto,w_413/v1578542005/equipment/stonestore-dump-truck.jpg">
-                    <source media="(min-width: 601px)" srcset="https://res.cloudinary.com/aggtrans/image/upload/c_lfill,dpr_auto,f_auto,g_center,h_374,q_auto,w_413/v1578542005/equipment/stonestore-dump-truck.jpg">
-                    <img decoding="async" src="https://res.cloudinary.com/aggtrans/image/upload/c_lfill,dpr_auto,f_auto,g_center,h_374,q_auto,w_413/v1578542005/equipment/stonestore-dump-truck.jpg" alt="construction" width="413" height="374" aria-hidden="true">
+                    <source media="(max-width: 600px)" srcset="{{ cardImgSm_3 }}">
+                    <source media="(min-width: 601px)" srcset="{{ cardImgLg_3 }}">
+                    <img decoding="async" src="cardImgSm_3" alt="{{ cardImgAlt_3 }}" width="413" height="374" aria-hidden="true">
                 </picture>
             </li>
         </ul>

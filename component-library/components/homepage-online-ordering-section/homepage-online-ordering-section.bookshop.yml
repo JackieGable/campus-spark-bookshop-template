@@ -3,19 +3,19 @@ spec:
   structures:
     - content_blocks
   label: "Homepage-online-ordering-section"
-  description:
+  description: Online ordering section of home page
   icon:
   tags: []
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  text: ""
   mainImgSm: ""
   mainImgLg: ""
   mainImgAlt: ""
   category: ""
   mainHeading: ""
   mainContent: ""
+  mainContent2: ""
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

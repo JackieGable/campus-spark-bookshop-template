@@ -160,6 +160,8 @@ _editables:
   link:
     paths:
 data_config: {}
+editor:
+  default_path:
 source_editor:
   tab_size: 2
   theme: monokai

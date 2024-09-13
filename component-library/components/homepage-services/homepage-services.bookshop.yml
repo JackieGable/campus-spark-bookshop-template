@@ -9,7 +9,33 @@ spec:
 
 # Defines the structure of this component, as well as the default values
 blueprint:
-  text: "Hello World!"
+  category: ""
+  mainHeading: ""
+  mainContent: ""
+  cardUrl_1: ""
+  cardTitle_1: ""
+  cardHeading_1: ""
+  cardContent_1: ""
+  cardImgSm_1: ""
+  cardImgLg_1: ""
+  cardImgAlt_1: ""
+  
+  cardUrl_2: ""
+  cardTitle_2: ""
+  cardHeading_2: ""
+  cardContent_2: ""
+  cardImgSm_2: ""
+  cardImgLg_2: ""
+  cardImgAlt_2: ""
+  
+  cardUrl_3: ""
+  cardTitle_3: ""
+  cardHeading_3: ""
+  cardContent_3: ""
+  cardImgSm_3: ""
+  cardImgLg_3: ""
+  cardImgAlt_3: ""
+  
 
 # Overrides any fields in the blueprint when viewing this component in the component browser
 preview:

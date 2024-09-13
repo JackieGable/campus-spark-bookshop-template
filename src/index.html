@@ -3,18 +3,29 @@ layout: layouts/base.html
 content_blocks:
   - _bookshop_name: bg-img-with-overlay
     background_image:
-      image_path: "https://res.cloudinary.com/aggtrans/image/upload/f_auto,q_auto,dpr_auto/equipment/HeaderIMG-About-Us.jpg"
+      image_path: >-
+        https://res.cloudinary.com/aggtrans/image/upload/f_auto,q_auto,dpr_auto/equipment/HeaderIMG-About-Us.jpg
       image_alt: Loader
     logo_image:
-      image_path: "https://res.cloudinary.com/aggtrans/image/upload/w_600,fl_progressive:semi/f_auto,q_auto/logos/Aggtrans_over_40_year_logo_items_white_DELV.png"
+      image_path: >-
+        https://res.cloudinary.com/aggtrans/image/upload/w_600,fl_progressive:semi/f_auto,q_auto/logos/Aggtrans_over_40_year_logo_items_white_DELV.png
       image_alt: Aggtrans logo
-
+      position_left: 50
   - _bookshop_name: picture-cards
-
+    cards:
+      - media:
+          image:
+            url: >-
+              https://res.cloudinary.com/aggtrans/image/upload/f_auto,q_auto,dpr_auto/crushed-stone/CrushedStone_1000x800.jpg
+            alt: Crushed Stone
+        heading:
+          text: Crushed Stone
+          url: ''
+        text: ''
   - _bookshop_name: homepage-services
-
+    text: Hello World!
   - _bookshop_name: homepage-online-ordering-section
-
+    text: Hello World!
   - _bookshop_name: image-text-split
     image:
       url: /assets/uploads/mimi-thian-slwbjtghreq-unsplash.jpg
@@ -30,7 +41,6 @@ content_blocks:
         text: Plan your visit
         url: '#'
     reverse: false
-
   - _bookshop_name: container
     container_blocks:
       - _bookshop_name: tight-container
@@ -41,7 +51,6 @@ content_blocks:
             text: >-
               We are proud to provide the best education for our students,
               offering a diverse range of programs and vibrant campus life.
-
       - _bookshop_name: stat-block
         stats:
           - text: Graduation rate
@@ -67,7 +76,6 @@ content_blocks:
         text: Explore our Athletics program
         url: '#'
     reverse: true
-
   - _bookshop_name: events
     text: Hello World!
     background_image:

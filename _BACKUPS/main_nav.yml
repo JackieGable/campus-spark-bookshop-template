@@ -1,8 +1,8 @@
 [
 	{
-		"title": "About Us",
+		"title": "Admissions",
 		"overview": {
-			"title": "Who We Are",
+			"title": "Admissions Overview",
 			"link": "/admission-overview",
 			"media": {
 				"image": "/assets/students.jpg",
@@ -11,11 +11,11 @@
 		},
 		"sections": [
 			{
-				"title": "",
+				"title": "Under Graduate",
 				"items": [
 					{
-						"title": "About Us",
-						"link": "/about.html"
+						"title": "Apply",
+						"link": "#"
 					},
 					{
 						"title": "Admissions",
@@ -72,10 +72,10 @@
 		]
 	},
 	{
-		"title": "Products/Services",
+		"title": "Academics",
 		"overview": {
-			"title": "",
-			"link": "#",
+			"title": "Academics Overview",
+			"link": "/academics-overview",
 			"media": {
 				"image": "/assets/studying.jpg",
 				"alt": "Students studying"
@@ -117,14 +117,6 @@
 					{
 						"title": "Academic Partnerships",
 						"link": "#"
-					},
-					{
-						"title": "Innovation Labs",
-						"link": "#"
-					},
-					{
-						"title": "Academic Partnerships",
-						"link": "#"
 					}
 				]
 			},
@@ -148,7 +140,7 @@
 		]
 	},	
 	{
-		"title": "Resources",
+		"title": "Meet State University",
 		"overview": {
 			"title": "State Overview",
 			"link": "#",

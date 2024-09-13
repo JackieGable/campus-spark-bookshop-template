@@ -79,5 +79,21 @@ _inputs:
   image.url:
     type: image
     cascade: true
+_editables:
+  text:
+    allow_custom_markup: true
+    remove_custom_markup: false
+    bold: true
+    copyformatting: true
+    italic: true
+    link: true
+    paths:
+    redo:
+    removeformat:
+    strike:
+    subscript:
+    superscript:
+    underline:
+    undo:
 data_config: {}
-timezone: Etc/UTC
+timezone: US/Eastern

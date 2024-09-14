@@ -98,7 +98,6 @@ content_blocks:
         text: Plan your visit
         url: '#'
     reverse: false
-
   - _bookshop_name: container
     container_blocks:
       - _bookshop_name: tight-container
@@ -176,5 +175,11 @@ content_blocks:
           text: Sand
           url: /sand.html
         text: ''
+  - _bookshop_name: container
+    container_blocks:
+      - _bookshop_name: tight-container
+        inner_content_blocks: []
+        
+        
 ---
 {% bookshop_include "page" content_blocks: content_blocks %}

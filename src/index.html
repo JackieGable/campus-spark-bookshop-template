@@ -23,6 +23,30 @@ content_blocks:
           url: ''
         text: ''
   - _bookshop_name: homepage-services
+    category: ''
+    mainHeading: ''
+    mainContent: ''
+    cardUrl_1: ''
+    cardTitle_1: ''
+    cardHeading_1: ''
+    cardContent_1: ''
+    cardImgSm_1: ''
+    cardImgLg_1: ''
+    cardImgAlt_1: ''
+    cardUrl_2: ''
+    cardTitle_2: ''
+    cardHeading_2: ''
+    cardContent_2: ''
+    cardImgSm_2: ''
+    cardImgLg_2: ''
+    cardImgAlt_2: ''
+    cardUrl_3: ''
+    cardTitle_3: ''
+    cardHeading_3: ''
+    cardContent_3: ''
+    cardImgSm_3: ''
+    cardImgLg_3: ''
+    cardImgAlt_3: ''
     text: Hello World!
   - _bookshop_name: homepage-online-ordering-section
     mainImgSm: >-
@@ -117,5 +141,25 @@ content_blocks:
     button:
       text: View all events
       link:
+  - _bookshop_name: cards
+    cards:
+      - media:
+          image:
+            url: >-
+              https://res.cloudinary.com/aggtrans/image/upload/f_auto,q_auto,dpr_auto/crushed-stone/CrushedStone_1000x800.jpg
+            alt: Crushed Stone
+        heading:
+          text: Crushed Stone
+          url: /crushed-stone.html
+        text: ''
+      - media:
+          image:
+            url: >-
+              https://res.cloudinary.com/aggtrans/image/upload/q_auto,f_auto,dpr_auto/sand/Sand_1000x800.jpg
+            alt: Sand
+        heading:
+          text: Sand
+          url: /sand.html
+        text: ''
 ---
 {% bookshop_include "page" content_blocks: content_blocks %}
